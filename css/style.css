@@ -1,0 +1,156 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body::before {
+  background-color: white;
+  
+ }
+ 
+ h1 {
+   font-family:'Beubas Neue','sans-serif';
+   font-weight: 800;
+   line-height: 1.2;
+   padding-top: 1.7rem;
+ }
+ 
+ p {
+   font-size: 1.125rem;
+   margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+ }
+ 
+ h1,
+ p {
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+
+ }
+#Subutton {
+  display: block;
+  width: 50%;
+  padding: 0.75rem;
+  color:#fff;
+  background-color: #00a15e;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 2rem auto;
+}
+#Res1{
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+#Res2{
+  text-align: center;
+  margin-top: 1.5rem;
+}
+#btn1{
+  display:none;
+  width: 50%;
+  padding: 0.75rem;
+  color:#fff;
+  background-color: #00a15e;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 2rem auto;
+  
+}
+#btn2{
+  display:none;
+  width: 50%;
+  padding: 0.75rem;
+  color:#fff;
+  background-color: #00a15e;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 2rem auto;
+}
+
+.Subutton:hover{
+  background-color:#08b96f;
+}
+.Subutton:active{
+  background-color:#097749;
+}
+input {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.1rem;
+  min-width: 1.1rem;
+}
+
+header{
+  background-color: #00a15e;
+  color:#fff;
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+  text-align: center;
+}
+#description{
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  padding-bottom: 2rem;
+}
+footer{
+  background-color: #00a15e;
+  color:#fff;
+  padding: 0 0.625rem;
+  
+  text-align: center;
+ 
+}
+#Footer{
+  font-family:'Beubas Neue','sans-serif';
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+  font-size: 1.5rem;;
+}
+body {
+  font-family:'roboto','sans-serif';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000;
+  background-color:#fff;
+  margin: 0;
+}
+.Validation{
+  background-color:#fab0b0;
+  color:#4e0a0a;
+  border:1px solid black;
+ 
+  margin-bottom:2rem;
+  
+}
+
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+ 
+  ol{
+   display:block;
+  }
+  span {
+    display: block;
+  }
+ 
+  
+ 
